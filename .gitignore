@@ -1,21 +1,47 @@
+# Unity-generated folders
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-MemoryCaptures/
-UserSettings/
-.vscode/
+
+# User-specific files
 *.csproj
 *.unityproj
 *.sln
+*.suo
 *.user
+*.userprefs
 *.pidb
 *.booproj
 *.svd
+*.pdb
+*.mdb
+*.opendb
 
-# Unity Cache
-Packages/manifest.json
-Packages/packages-lock.json
+# Unity auto-generated
+*.apk
+*.aab
+*.unitypackage
+
+# Visual Studio / JetBrains Rider
+.vscode/
+.idea/
+*.sln
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Crashlytics/Analytics
+crashlytics-build.properties
+
+# Exclude large cached packages
+Packages/com.unity.*
 Library/PackageCache/
+
+# Git
+.git/
+.gitignore
+.gitattributes
